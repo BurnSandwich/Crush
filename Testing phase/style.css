@@ -1,0 +1,70 @@
+<div id="success-screen" style="max-width: 500px; margin: 40px auto; padding: 30px; background: #ffffff; border-radius: 20px; box-shadow: 0 10px 30px rgba(255, 179, 186, 0.3); font-family: 'Poppins', 'Segoe UI', sans-serif; text-align: center; color: #4a4a4a; box-sizing: border-box;">
+  
+  <div class="section-quotes" style="margin-bottom: 25px;">
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjEx.../giphy.gif" alt="Happy Cat" style="width: 130px; margin-bottom: 15px; border-radius: 50%;">
+    
+    <h2 style="color: #ff8b94; font-size: 1.8rem; margin-bottom: 15px; font-weight: 700;">Yay, thank you! 🥰</h2>
+    
+    <div style="background: #fff5f5; padding: 20px; border-left: 4px solid #ffb3ba; border-radius: 8px; margin: 15px 0; text-align: left;">
+      <p style="font-style: italic; line-height: 1.6; color: #6a6a6a; margin: 0; font-size: 1rem;">
+        "Awak tengah lalui hari yang penat ke tu? Remember, you are doing great! Jangan pernah ragu dengan kebolehan diri sendiri tau. Kalau rasa penat, rehat sekejap, tapi jangan menyerah kalah. I'll always be here supporting you from afar. ✨"
+      </p>
+    </div>
+    
+    <p style="font-size: 0.95rem; line-height: 1.5; color: #777; margin-top: 15px;">
+      Sebelum awak tutup web ni, boleh tak saya minta awak tolong isikan borang ringkas kat bawah ni kejap? 🥺👉👈
+    </p>
+  </div>
+
+  <div style="height: 2px; background: linear-gradient(to right, transparent, #ffb3ba, transparent); margin: 30px 0;"></div>
+
+  <div class="section-form" style="text-align: left; margin-bottom: 25px;">
+    <p style="font-weight: 600; color: #4a4a4a; margin-bottom: 20px; font-size: 1.05rem; text-align: center;">
+      Sila tinggalkan butiran anda di sini: 😉
+    </p>
+    
+    <form name="lala-contact-details" method="POST" data-netlify="true" style="display: block;">
+      
+      <div class="form-group" style="margin-bottom: 20px;">
+        <label for="nama" style="display: block; font-size: 0.9rem; font-weight: 600; color: #6a6a6a; margin-bottom: 8px;">Nama panggilan comel awak:</label>
+        <input type="text" id="nama" name="nama_lala" placeholder="Lala ✨" required 
+               style="width: 100%; padding: 12px 15px; border-radius: 12px; border: 1.5px solid #ffe3e5; background-color: #fffafb; font-size: 0.95rem; color: #4a4a4a; outline: none; transition: 0.3s; box-sizing: border-box;">
+      </div>
+
+      <div class="form-group" style="margin-bottom: 20px;">
+        <label for="phone" style="display: block; font-size: 0.9rem; font-weight: 600; color: #6a6a6a; margin-bottom: 8px;">Nombor WhatsApp:</label>
+        <input type="tel" id="phone" name="nombor_phone" placeholder="Contoh: 0123456789" required 
+               style="width: 100%; padding: 12px 15px; border-radius: 12px; border: 1.5px solid #ffe3e5; background-color: #fffafb; font-size: 0.95rem; color: #4a4a4a; outline: none; transition: 0.3s; box-sizing: border-box;">
+      </div>
+
+      <div class="form-group" style="margin-bottom: 25px;">
+        <label for="mesej" style="display: block; font-size: 0.9rem; font-weight: 600; color: #6a6a6a; margin-bottom: 8px;">Ada apa-apa pesanan lagi untuk saya?</label>
+        <textarea id="mesej" name="pesanan_tambahan" placeholder="Tulis apa sahaja..." 
+                  style="width: 100%; padding: 12px 15px; border-radius: 12px; border: 1.5px solid #ffe3e5; background-color: #fffafb; font-size: 0.95rem; color: #4a4a4a; height: 80px; resize: none; outline: none; transition: 0.3s; box-sizing: border-box;"></textarea>
+      </div>
+
+      <button type="submit" 
+              style="width: 100%; background: linear-gradient(135deg, #ffb3ba, #ff8b94); color: white; border: none; padding: 14px; border-radius: 12px; cursor: pointer; font-weight: 600; font-size: 1rem; box-shadow: 0 4px 15px rgba(255, 139, 148, 0.4); transition: 0.3s;">
+        Hantar Maklumat 🕊️
+      </button>
+
+    </form>
+  </div>
+
+  <div style="height: 2px; background: linear-gradient(to right, transparent, #ffb3ba, transparent); margin: 30px 0;"></div>
+
+  <div class="section-appreciation" style="margin-top: 10px;">
+    <h3 style="color: #ff8b94; font-size: 1.3rem; margin-bottom: 12px; font-weight: 600;">Terima Kasih Banyak-Banyak! 🤍</h3>
+    <p style="font-size: 0.9rem; line-height: 1.6; color: #6a6a6a; margin-bottom: 20px;">
+      Sebagai penghargaan sebab awak sudi baca sampai habis... saya nak buat satu pengakuan ringkas. 
+      Sebenarnya, web ini saya kod sendiri 100% khas dari kosong semata-mata untuk awak. 
+      Dari pening kepala hadap error coding terminal sampailah ke proses deploy, 
+      saya buat semua ni dengan harapan dapat buat awak tersenyum hari ni.
+    </p>
+    <p style="font-size: 0.85rem; color: #b5b5b5; letter-spacing: 1px; margin: 0;">
+      WITH LOVE, <br>
+      <strong style="color: #ff8b94; font-size: 1rem; display: inline-block; margin-top: 5px;">SyscallMortis</strong>
+    </p>
+  </div>
+
+</div>

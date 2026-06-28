@@ -82,9 +82,8 @@
 <body>
 
     <div class="container">
-        <!-- Bro boleh tukar text kat bawah ni ikut kesesuaian -->
-        <h1>Hi Lala... 🤍</h1>
-        <p id="message">Since we've been talking, I just want to ask... do you mind if I keep getting to know you better? 🥰</p>
+        <h1>Hi Nabila... 🤍</h1>
+        <p id="message">Since we've been talking, I just want to ask... do you mind if I keep getting to know you better? </p>
 
         <div class="buttons">
             <button id="yesBtn" onclick="selectYes()">Yes</button>
@@ -96,16 +95,12 @@
         function flyAway() {
             const noBtn = document.getElementById('noBtn');
             
-            // Dapatkan saiz tetingkap browser
             const windowWidth = window.innerWidth;
             const windowHeight = window.innerHeight;
             
-            // Dapatkan posisi rawak (random) dalam skrin
-            // Tolak 100-150px supaya butang tak lari keluar dari sempadan skrin
             const randomX = Math.floor(Math.random() * (windowWidth - 150));
             const randomY = Math.floor(Math.random() * (windowHeight - 100));
             
-            // Tukar posisi butang menjadi 'fixed' supaya dia boleh lari ke mana-mana sahaja di skrin
             noBtn.style.position = 'fixed';
             noBtn.style.left = randomX + 'px';
             noBtn.style.top = randomY + 'px';
@@ -117,13 +112,22 @@
             const h1 = document.querySelector('h1');
             
             // Tukar skrin bila dia berjaya tekan "Yes"
-            h1.innerHTML = "Thank you! 🥰";
-            message.innerHTML = "Hehe, glad you said yes. Let's focus on our studies and careers, and let the time answer the rest. Semangat study tau! 📚💪";
+            h1.innerHTML = "Thank you!❤️";
+            message.innerHTML = "Hi... I think it's obvious to you who I am, but I'm too shy to start the conversation on my main acc. So, I created this for you, maybe you can start the conversation first so we can talk longer? But I know you're now focusing on your final exams due to study week this week. I hope you can focus on your study and get dean list or first class aminn... I'm always supporting you from afar even though I can't help you in your core subjects... Good luck for your final exams and semangat studynya 💪 bittaufiq wannajah 🩶";
             
             // Sorokkan butang-butang selepas selesai
             buttonsContainer.style.display = 'none';
         }
+
+  
+
+    </script>
+    </div>
+    
+  </section>
+
+</body>
     </script>
 
 </body>
-</html>2
+</html>
